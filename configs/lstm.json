@@ -1,0 +1,15 @@
+[
+    {
+        "type": "dense",
+        "size": 128,
+        "activation": "relu"
+    },
+    {
+        "type": "internal_lstm",
+        "size": 128
+    },
+    {
+        "type": "internal_lstm",
+        "size": 128
+    }
+]
